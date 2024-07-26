@@ -7,6 +7,9 @@ from base_caching import BaseCaching
 
 
 class BasicCache(BaseCaching):
+    """
+    BasicCache that inherits from BaseCaching and is a caching system
+    """
     def put(self, key, item):
         """
         Add an item in the cache
