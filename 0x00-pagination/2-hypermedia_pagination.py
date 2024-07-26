@@ -24,6 +24,9 @@ class Server:
     DATA_FILE = "Popular_Baby_Names.csv"
 
     def __init__(self):
+        """
+        assert to verify that both arguments are integers
+        """
         self.__dataset = None
 
     def dataset(self) -> List[List]:
