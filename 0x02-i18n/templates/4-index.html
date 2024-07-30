@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="{{ get_locale() }}">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ _('Welcome') }}</title>
+</head>
+<body>
+    <h1>
+        {% if get_locale() == 'fr' %}
+            Bienvenue
+        {% else %}
+            Welcome
+        {% endif %}
+    </h1>
+</body>
+</html>
